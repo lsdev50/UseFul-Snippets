@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 1rem;
+    width: 60vw;
+    max-height: 60vh;
+    aspect-ratio: 1/1;
+}
+
+figure[data-grid="img-1"] {
+    grid-area: 1 / 1 / 7 / 7;
+}
+figure[data-grid="img-2"] {
+    grid-area: 1 / 7 / 4 / 10;
+}
+figure[data-grid="img-3"] {
+    grid-area: 4 / 7 / 7 / 10;
+}
+figure[data-grid="img-4"] {
+    grid-area: 7 / 7 / 10 / 10;
+}
+figure[data-grid="img-5"] {
+    grid-area: 7 / 4 / 10 / 7;
+}
+figure[data-grid="img-6"] {
+    grid-area: 7 / 1 / 10 / 4;
+}
+
+figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
