@@ -1,0 +1,26 @@
+.gf-entries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.gf-entries-table th, .gf-entries-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.gf-entries-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.gf-entries-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.gf-entries-table tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
