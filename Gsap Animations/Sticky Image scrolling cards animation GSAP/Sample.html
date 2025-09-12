@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sticky Scroll with GSAP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="full_height_section"></section>
+    <section class="full_height_section card_container">
+        <div class="card_wrap_img">
+            <img class="card_img" src="/images/image-1.png"
+                alt="A random image from Picsum">
+            <img class="card_img" src="/images/image-2.png"
+                alt="A random image from Picsum">
+            <img class="card_img" src="/images/image-3.png"
+                alt="A random image from Picsum">
+            <img class="card_img" src="/images/image-4.png"
+                alt="A random image from Picsum">
+        </div>
+        <div class="card_parent">
+            <div class="ls_card active">
+                <h2 class="ls_card_title">Card 1</h2>
+                <p class="ls_card_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    egestas, ex vel vestibulum pharetra, tortor sem dignissim leo, a
+                    viverra lectus diam sed lorem.
+                </p>
+                <button class="ls_card_btn">Read More</button>
+            </div>
+            <div class="ls_card">
+                <h2 class="ls_card_title">Card 2</h2>
+                <p class="ls_card_text">
+                    Nulla facilisi. In hac habitasse platea dictumst. Sed ac
+                    malesuada justo. Nullam facilisis, magna sit amet malesuada
+                    eleifend, elit justo tincidunt nunc, eget elementum est lectus
+                    sed velit.
+                </p>
+                <button class="ls_card_btn">Read More</button>
+            </div>
+            <div class="ls_card">
+                <h2 class="ls_card_title">Card 3</h2>
+                <p class="ls_card_text">
+                    Morbi faucibus, ante sed venenatis dictum, nunc erat maximus
+                    metus, a egestas nunc augue sit amet justo.
+                </p>
+                <button class="ls_card_btn">Read More</button>
+            </div>
+            <div class="ls_card">
+                <h2 class="ls_card_title">Card 4</h2>
+                <p class="ls_card_text">
+                    Sed euismod, nunc id ultrices elementum, ex nunc dictum est,
+                    in mollis risus lorem nec metus.
+                </p>
+                <button class="ls_card_btn">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="full_height_section"></section>
+    <section class="full_height_section"></section>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
